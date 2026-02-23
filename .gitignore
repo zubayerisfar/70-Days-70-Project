@@ -33,3 +33,4 @@ Heart Disease Prediction Using ANN/data/
 Diabetes Prediction Using Deep Learning/data/
 Brain Tumor Detection from MRI Images/data/
 COVID-19 Detection Using Chest X-Ray Images/data/
+Covid-19 Detection Using Chest X-Ray Images/covid_xray_resnet18.pth
