@@ -1,0 +1,1 @@
+I did not add the cosine_sim.npy for its too large size. So you should run it on your own
