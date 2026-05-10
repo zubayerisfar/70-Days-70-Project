@@ -40,4 +40,6 @@ Sleep Apnea Detection Using Neural Networks/data/
 Patient Readmission Prediction Using Deep Learning/data/    
 Movie Recommendation System Using Deep Learning/datasets/
 Movie Recommendation System Using Deep Learning/models/cosine_sim.npy
+Music Recommendation System/processed_data/
+Music Recommendation System/MillionSongSubset/
 .venv/
