@@ -42,4 +42,6 @@ Movie Recommendation System Using Deep Learning/datasets/
 Movie Recommendation System Using Deep Learning/models/cosine_sim.npy
 Music Recommendation System/processed_data/
 Music Recommendation System/MillionSongSubset/
+Music Recommendation System/data/
 .venv/
+Music Recommendation System/model_artifacts/music_recommendation_model.pkl

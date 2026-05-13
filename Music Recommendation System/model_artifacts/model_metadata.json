@@ -1,0 +1,20 @@
+{
+    "audio_features": [
+        "Energy",
+        "Danceability",
+        "Positiveness",
+        "Speechiness",
+        "Liveness",
+        "Acousticness",
+        "Instrumentalness",
+        "Tempo",
+        "Loudness",
+        "Popularity"
+    ],
+    "num_genre_features": 2561,
+    "num_emotion_features": 9,
+    "total_features": 2581,
+    "n_neighbors": 10,
+    "metric": "cosine",
+    "algorithm": "auto"
+}
