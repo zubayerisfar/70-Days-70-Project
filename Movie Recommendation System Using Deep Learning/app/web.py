@@ -4,13 +4,13 @@ import numpy as np
 import joblib
 
 # Load the SVD model and cosine similarity matrix
-svd = joblib.load(r'E:\Hybrid Recommendation System\models\svd_model.pkl')  # Load the pre-trained SVD model
-cosine_sim = np.load(r'E:\Hybrid Recommendation System\models\cosine_sim.npy')  # Load the cosine similarity matrix
+svd = joblib.load(r'E:\Skill Development\Data Science\70 Days 70 Project\Movie Recommendation System Using Deep Learning\models\svd_model.pkl')  # Load the pre-trained SVD model
+cosine_sim = np.load(r'E:\Skill Development\Data Science\70 Days 70 Project\Movie Recommendation System Using Deep Learning\models\cosine_sim.npy')  # Load the cosine similarity matrix
 
 # Assuming the 'movies' DataFrame contains the movie metadata (e.g., movieId and title)
 # You can load it from a CSV file if it's not already in memory.
 # You can load it from a CSV file if it's not already in memory.
-movies = pd.read_csv(r'E:\Hybrid Recommendation System\datasets\movies.csv')
+movies = pd.read_csv(r'E:\Skill Development\Data Science\70 Days 70 Project\Movie Recommendation System Using Deep Learning\datasets\movies.csv')
 
 # Hybrid recommendation function (already defined)
 def hybrid_recommend(movie_id, svd, cosine_sim, top_n=10, content_weight=0.5, collab_weight=0.5):

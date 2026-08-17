@@ -22,6 +22,9 @@ Language Translation with Transformers (GPT)/data
 Stock Price Prediction using LSTM/data/
 Weather Forcasting with LSTM/data
 Energy Consumption Prediction Using Deep Learning/data/
+Energy Consumption Prediction Using Deep Learning/energy_model.keras
+Energy Consumption Prediction Using Deep Learning/feature_scaler.joblib
+Energy Consumption Prediction Using Deep Learning/target_scaler.joblib
 Sales Forecasting Using Neural Networks/data
 Traffic Flow Prediction Using LSTM/data
 Cryptocurrency Price Prediction Using GRU/data
@@ -30,8 +33,9 @@ Crop Yield Prediction Using Deep Learning/data
 Electricity Load Forecasting Using LSTM/data/
 Rainfall Prediction Using Deep Learning Models/data/
 Heart Disease Prediction Using ANN/data/
+Heart Disease Prediction Using ANN/heart_model.keras
+Heart Disease Prediction Using ANN/heart_preprocessing.npz
 Diabetes Prediction Using Deep Learning/data/
-Brain Tumor Detection from MRI Images/data/
 COVID-19 Detection Using Chest X-Ray Images/data/
 Covid-19 Detection Using Chest X-Ray Images/covid_xray_resnet18.pth
 ECG Signal Classification Using Deep Learning/data/
@@ -45,3 +49,7 @@ Music Recommendation System/MillionSongSubset/
 Music Recommendation System/data/
 .venv/
 Music Recommendation System/model_artifacts/music_recommendation_model.pkl
+Rainfall Prediction Using Deep Learning Models/models
+Rainfall Prediction Using Deep Learning Models/catboost_info
+Crowd Density Estimation using CNN/converter_env
+Brain Tumor Detection from MRI Images/data

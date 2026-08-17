@@ -1,0 +1,17 @@
+{
+  "model_name": "mall_density_unet",
+  "tensorflow_version": "2.13.0",
+  "input_height": 240,
+  "input_width": 320,
+  "input_channels": 3,
+  "input_color_order": "RGB",
+  "normalization": "float32 pixels divided by 255.0",
+  "density_scale": 1000.0,
+  "count_formula": "sum(predicted_density_map) / density_scale",
+  "validation_mae": 2.1460022926330566,
+  "validation_rmse": 2.7211031321895836,
+  "validation_mse": 7.404402256011963,
+  "validation_pearson_r": 0.8908228313800249,
+  "training_split": "first 80% train, last 20% validation",
+  "training_dataset": "Mall fixed-camera dataset"
+}
